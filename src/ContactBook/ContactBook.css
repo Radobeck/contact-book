@@ -1,0 +1,71 @@
+.contact-book {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #050134;
+}
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  height: 150px;
+  background-color: #4200d8;
+  border-radius: 20px;
+  margin: 50px 0 50px 0;
+}
+.contact-book-h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  color: rgba(219, 227, 255, 0.8);
+  display: block;
+  background-color: #050134;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.contact-icons {
+  margin-right: 20px;
+}
+.item-icon {
+  height: 32px;
+  width: 31px;
+  padding: 0;
+  margin: 10px 5px;
+  background-color: #4200d8;
+  border-style: none;
+  border-radius: 100px;
+  transition: 0.1s;
+}
+.item-icon:hover {
+  background-color: #00d8a6;
+}
+.icons {
+  margin: 0;
+}
+
+.contact-image {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0 5px 30px;
+  background-color: black;
+  border-radius: 100px;
+}
+.contact-imageURL {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.contact-name {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(219, 227, 255, 0.8);
+}
+.contact-number {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(171, 178, 202, 0.8);
+}
